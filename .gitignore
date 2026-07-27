@@ -1,0 +1,9 @@
+node_modules/
+dist/
+coverage/
+*.tgz
+.env
+.env.*
+examples/
+minio_data/
+docker-compose.yml
