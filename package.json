@@ -1,7 +1,7 @@
 {
-  "name": "storix",
+  "name": "@bh10-d/storix",
   "version": "0.1.0",
-  "description": "A pluggable file storage abstraction library for TypeScript and Node.js",
+  "description": "A simple and extensible object storage abstraction for Node.js and TypeScript.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -13,8 +13,7 @@
   },
   "files": [
     "dist",
-    "README.md",
-    "LICENSE"
+    "README.md"
   ],
   "scripts": {
     "build": "tsc",
@@ -25,16 +24,26 @@
   },
   "keywords": [
     "storage",
-    "file-storage",
-    "typescript",
-    "nodejs",
-    "minio",
+    "object-storage",
     "s3",
-    "local-storage",
-    "object-storage"
+    "minio",
+    "filesystem",
+    "typescript",
+    "nodejs"
   ],
-  "author": "Hieu Bui Duc",
+  "author": "bh10-d",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bh10-d/storix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bh10-d/storix/issues"
+  },
+  "homepage": "https://github.com/bh10-d/storix#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "minio": "^8.0.7"
   },
