@@ -26,7 +26,6 @@
   "license": "ISC",
   "dependencies": {
     "minio": "^8.0.7",
-    "storix": "file:storix-0.1.0.tgz",
     "typescript": "^7.0.2"
   },
   "devDependencies": {
