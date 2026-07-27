@@ -1,6 +1,7 @@
 {
   "name": "storix",
   "version": "0.1.0",
+  "description": "A pluggable file storage abstraction library for TypeScript and Node.js",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -12,7 +13,8 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsc",
@@ -21,16 +23,25 @@
     "typecheck": "tsc --noEmit",
     "dev": "tsx watch src/index.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "storage",
+    "file-storage",
+    "typescript",
+    "nodejs",
+    "minio",
+    "s3",
+    "local-storage",
+    "object-storage"
+  ],
+  "author": "Hieu Bui Duc",
+  "license": "MIT",
   "dependencies": {
-    "minio": "^8.0.7",
-    "typescript": "^7.0.2"
+    "minio": "^8.0.7"
   },
   "devDependencies": {
     "@types/node": "^26.1.1",
     "tsx": "^4.23.1",
+    "typescript": "^7.0.2",
     "vitest": "^4.1.10"
   }
 }
